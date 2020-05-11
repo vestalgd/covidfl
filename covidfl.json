@@ -1,0 +1,2912 @@
+{
+  "meta": {
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      }
+    ],
+    "filters": [],
+    "genome_annotations": {
+      "E": {
+        "end": 26472,
+        "seqid": "config/MN908947.gb",
+        "start": 26245,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 27191,
+        "seqid": "config/MN908947.gb",
+        "start": 26523,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 29533,
+        "seqid": "config/MN908947.gb",
+        "start": 28274,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF10": {
+        "end": 29674,
+        "seqid": "config/MN908947.gb",
+        "start": 29558,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF3a": {
+        "end": 26220,
+        "seqid": "config/MN908947.gb",
+        "start": 25393,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF6": {
+        "end": 27387,
+        "seqid": "config/MN908947.gb",
+        "start": 27202,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF7a": {
+        "end": 27759,
+        "seqid": "config/MN908947.gb",
+        "start": 27394,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "ORF8": {
+        "end": 28259,
+        "seqid": "config/MN908947.gb",
+        "start": 27894,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "S": {
+        "end": 25384,
+        "seqid": "config/MN908947.gb",
+        "start": 21563,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 29903,
+        "seqid": "config/MN908947.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "orf1ab": {
+        "end": 21555,
+        "seqid": "config/MN908947.gb",
+        "start": 266,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "panels": [
+      "tree",
+      "entropy"
+    ],
+    "updated": "2020-05-10"
+  },
+  "tree": {
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "ORF8: V62L; orf1ab: D75E, P971L, F6158L"
+          },
+          "mutations": {
+            "ORF8": [
+              "V62L"
+            ],
+            "nuc": [
+              "T490A",
+              "C3177T",
+              "T18736C",
+              "C24034T",
+              "T26729C",
+              "G28077C",
+              "A29700G"
+            ],
+            "orf1ab": [
+              "D75E",
+              "P971L",
+              "F6158L"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "N: A305V; S: S816P, Q1036K; orf1ab: E57K, C1755F, A2732V, P2886S, H5274Y"
+              },
+              "mutations": {
+                "N": [
+                  "A305V"
+                ],
+                "S": [
+                  "S816P",
+                  "Q1036K"
+                ],
+                "nuc": [
+                  "G434A",
+                  "G5529T",
+                  "C8460T",
+                  "C8921T",
+                  "T13180C",
+                  "C16084T",
+                  "T24008C",
+                  "C24668A",
+                  "C29187T",
+                  "C29733T"
+                ],
+                "orf1ab": [
+                  "E57K",
+                  "C1755F",
+                  "A2732V",
+                  "P2886S",
+                  "H5274Y"
+                ]
+              }
+            },
+            "name": "hCoV-19/USA/FL-BPHL-044/2020",
+            "node_attrs": {
+              "accession": "EPI_ISL_436548",
+              "div": 0.0005019945866781938,
+              "num_date": {
+                "confidence": [
+                  2020.2937158469945,
+                  2020.2937158469945
+                ],
+                "value": 2020.2937158469945
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "N: A208G; orf1ab: R724K, M4071I"
+              },
+              "mutations": {
+                "N": [
+                  "A208G"
+                ],
+                "nuc": [
+                  "G2436A",
+                  "C6040T",
+                  "G12478A",
+                  "C28896G"
+                ],
+                "orf1ab": [
+                  "R724K",
+                  "M4071I"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "hCoV-19/USA/FL-BPHL-07/2020",
+                "node_attrs": {
+                  "accession": "EPI_ISL_436511",
+                  "div": 0.0003009304030508549,
+                  "num_date": {
+                    "confidence": [
+                      2020.2581967213114,
+                      2020.2581967213114
+                    ],
+                    "value": 2020.2581967213114
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "name": "hCoV-19/USA/FL-BPHL-06/2020",
+                "node_attrs": {
+                  "accession": "EPI_ISL_436510",
+                  "div": 0.00030093040305085423,
+                  "num_date": {
+                    "confidence": [
+                      2020.2581967213114,
+                      2020.2581967213114
+                    ],
+                    "value": 2020.2581967213114
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000011",
+            "node_attrs": {
+              "div": 0.00030093040305085423,
+              "num_date": {
+                "confidence": [
+                  2020.2240532641176,
+                  2020.2581967213114
+                ],
+                "value": 2020.2581967213114
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "orf1ab: V6474L"
+                      },
+                      "mutations": {
+                        "nuc": [
+                          "G19684T"
+                        ],
+                        "orf1ab": [
+                          "V6474L"
+                        ]
+                      }
+                    },
+                    "name": "hCoV-19/USA/FL_9655/2020",
+                    "node_attrs": {
+                      "accession": "EPI_ISL_424854",
+                      "div": 0.00020061899119730114,
+                      "num_date": {
+                        "confidence": [
+                          2020.1762295081967,
+                          2020.1762295081967
+                        ],
+                        "value": 2020.1762295081967
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "ORF10: I4L; orf1ab: T4412A"
+                          },
+                          "mutations": {
+                            "ORF10": [
+                              "I4L"
+                            ],
+                            "nuc": [
+                              "A13498G",
+                              "C26735T",
+                              "A29567C"
+                            ],
+                            "orf1ab": [
+                              "T4412A"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-012/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436516",
+                          "div": 0.0002675117527305154,
+                          "num_date": {
+                            "confidence": [
+                              2020.2581967213114,
+                              2020.2581967213114
+                            ],
+                            "value": 2020.2581967213114
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hCoV-19/env/USA/FL-UF3/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_434677",
+                          "div": 0.0001671859828862257,
+                          "num_date": {
+                            "confidence": [
+                              2020.23087431694,
+                              2020.23087431694
+                            ],
+                            "value": 2020.23087431694
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 0.0001671859828862257,
+                      "num_date": {
+                        "confidence": [
+                          2020.151226272253,
+                          2020.23087431694
+                        ],
+                        "value": 2020.1740646990954
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 0.0001671859828862257,
+                  "num_date": {
+                    "confidence": [
+                      2020.1237117460453,
+                      2020.1762295081967
+                    ],
+                    "value": 2020.1622393777507
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "S: L5F"
+                  },
+                  "mutations": {
+                    "S": [
+                      "L5F"
+                    ],
+                    "nuc": [
+                      "C21575T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G11557A"
+                        ]
+                      }
+                    },
+                    "name": "hCoV-19/USA/FL-UF2/2020",
+                    "node_attrs": {
+                      "accession": "EPI_ISL_434637",
+                      "div": 0.0002340490766746424,
+                      "num_date": {
+                        "confidence": [
+                          2020.2363387978141,
+                          2020.2363387978141
+                        ],
+                        "value": 2020.2363387978141
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C27998T",
+                          "G29701A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "N: T205I"
+                          },
+                          "mutations": {
+                            "N": [
+                              "T205I"
+                            ],
+                            "nuc": [
+                              "C28887T",
+                              "G29690T"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-055/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436559",
+                          "div": 0.000334365194411373,
+                          "num_date": {
+                            "confidence": [
+                              2020.3046448087432,
+                              2020.3046448087432
+                            ],
+                            "value": 2020.3046448087432
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T18144C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: D1962Y"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "G6149T",
+                                  "C11575T"
+                                ],
+                                "orf1ab": [
+                                  "D1962Y"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-059/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436563",
+                              "div": 0.00036779246792618546,
+                              "num_date": {
+                                "confidence": [
+                                  2020.3046448087432,
+                                  2020.3046448087432
+                                ],
+                                "value": 2020.3046448087432
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-057/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436561",
+                                  "div": 0.00030091554594723356,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.3046448087432,
+                                      2020.3046448087432
+                                    ],
+                                    "value": 2020.3046448087432
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-056/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436560",
+                                      "div": 0.00030091554594723356,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.3046448087432,
+                                          2020.3046448087432
+                                        ],
+                                        "value": 2020.3046448087432
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-058/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436562",
+                                      "div": 0.00030091554594723356,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.3046448087432,
+                                          2020.3046448087432
+                                        ],
+                                        "value": 2020.3046448087432
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000012",
+                                "node_attrs": {
+                                  "div": 0.00030091554594723356,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2605769585814,
+                                      2020.294155074187
+                                    ],
+                                    "value": 2020.2829209381207
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000010",
+                            "node_attrs": {
+                              "div": 0.00030091554594723356,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2414089620863,
+                                  2020.302332505226
+                                ],
+                                "value": 2020.2747615995952
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "div": 0.00030091554594723356,
+                          "num_date": {
+                            "confidence": [
+                              2020.228738401209,
+                              2020.2994717691463
+                            ],
+                            "value": 2020.2621271811659
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "div": 0.0002674831911840105,
+                      "num_date": {
+                        "confidence": [
+                          2020.1995456079503,
+                          2020.2835980891793
+                        ],
+                        "value": 2020.2322940696993
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000013",
+                "node_attrs": {
+                  "div": 0.0002006172295163501,
+                  "num_date": {
+                    "confidence": [
+                      2020.1479309350036,
+                      2020.2363387978141
+                    ],
+                    "value": 2020.186793420104
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.0001671859828862257,
+              "num_date": {
+                "confidence": [
+                  2020.103714227462,
+                  2020.1727669870425
+                ],
+                "value": 2020.1370285239207
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000007",
+        "node_attrs": {
+          "div": 0.0001671859828862257,
+          "num_date": {
+            "confidence": [
+              2016.8161708106363,
+              2020.1667230856074
+            ],
+            "value": 2020.1200602029567
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "N: S202N; orf1ab: Q252H, V5373I"
+              },
+              "mutations": {
+                "N": [
+                  "S202N"
+                ],
+                "nuc": [
+                  "G1021T",
+                  "G16381A",
+                  "T17877C",
+                  "G25500T",
+                  "G28878A",
+                  "G29742A"
+                ],
+                "orf1ab": [
+                  "Q252H",
+                  "V5373I"
+                ]
+              }
+            },
+            "name": "hCoV-19/USA/FL-BPHL-04/2020",
+            "node_attrs": {
+              "accession": "EPI_ISL_436508",
+              "div": 0.00026752136648850323,
+              "num_date": {
+                "confidence": [
+                  2020.2554644808743,
+                  2020.2554644808743
+                ],
+                "value": 2020.2554644808743
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "orf1ab: P5828L, Y5865C"
+              },
+              "mutations": {
+                "nuc": [
+                  "C17747T",
+                  "A17858G",
+                  "C18060T"
+                ],
+                "orf1ab": [
+                  "P5828L",
+                  "Y5865C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A16467G",
+                      "C23185T"
+                    ]
+                  }
+                },
+                "name": "hCoV-19/USA/FL_9656/2020",
+                "node_attrs": {
+                  "accession": "EPI_ISL_424856",
+                  "div": 0.00023403212133809442,
+                  "num_date": {
+                    "confidence": [
+                      2020.1789617486338,
+                      2020.1789617486338
+                    ],
+                    "value": 2020.1789617486338
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A24694T"
+                        ]
+                      }
+                    },
+                    "name": "hCoV-19/USA/FL-UF1/2020",
+                    "node_attrs": {
+                      "accession": "EPI_ISL_434636",
+                      "div": 0.0002005987745839028,
+                      "num_date": {
+                        "confidence": [
+                          2020.1898907103825,
+                          2020.1898907103825
+                        ],
+                        "value": 2020.1898907103825
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: D614G"
+                          },
+                          "mutations": {
+                            "S": [
+                              "D614G"
+                            ],
+                            "nuc": [
+                              "A23403G",
+                              "A23416T",
+                              "C28717T"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-031/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436535",
+                          "div": 0.0002674885607125437,
+                          "num_date": {
+                            "confidence": [
+                              2020.2909836065573,
+                              2020.2909836065573
+                            ],
+                            "value": 2020.2909836065573
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "orf1ab: A4977V"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C15194T",
+                              "T16062C"
+                            ],
+                            "orf1ab": [
+                              "A4977V"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-027/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436531",
+                          "div": 0.00023405376488162854,
+                          "num_date": {
+                            "confidence": [
+                              2020.2909836065573,
+                              2020.2909836065573
+                            ],
+                            "value": 2020.2909836065573
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000017",
+                    "node_attrs": {
+                      "div": 0.000167165624272475,
+                      "num_date": {
+                        "confidence": [
+                          2020.1282092698457,
+                          2020.2598808888006
+                        ],
+                        "value": 2020.1850684140084
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000016",
+                "node_attrs": {
+                  "div": 0.000167165624272475,
+                  "num_date": {
+                    "confidence": [
+                      2020.1217994570654,
+                      2020.1875732663093
+                    ],
+                    "value": 2020.17498556148
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000004",
+            "node_attrs": {
+              "div": 0.000167165624272475,
+              "num_date": {
+                "confidence": [
+                  2019.9201999358795,
+                  2020.1789617486338
+                ],
+                "value": 2020.1431552344025
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "ORF8: S84L"
+              },
+              "mutations": {
+                "ORF8": [
+                  "S84L"
+                ],
+                "nuc": [
+                  "T8782C",
+                  "C28144T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "ORF3a: G251V; orf1ab: L3606F, K5172T"
+                  },
+                  "mutations": {
+                    "ORF3a": [
+                      "G251V"
+                    ],
+                    "nuc": [
+                      "G11083T",
+                      "C14805T",
+                      "A15779C",
+                      "T17247C",
+                      "G26144T"
+                    ],
+                    "orf1ab": [
+                      "L3606F",
+                      "K5172T"
+                    ]
+                  }
+                },
+                "name": "hCoV-19/USA/FL_9590/2020",
+                "node_attrs": {
+                  "accession": "EPI_ISL_424853",
+                  "div": 0.00030090730060621884,
+                  "num_date": {
+                    "confidence": [
+                      2020.1762295081967,
+                      2020.1762295081967
+                    ],
+                    "value": 2020.1762295081967
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "S: D614G; orf1ab: P4715L"
+                  },
+                  "mutations": {
+                    "S": [
+                      "D614G"
+                    ],
+                    "nuc": [
+                      "C241T",
+                      "C3037T",
+                      "C14408T",
+                      "A23403G"
+                    ],
+                    "orf1ab": [
+                      "P4715L"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T29867A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "S: P1263L; orf1ab: A4815V"
+                          },
+                          "mutations": {
+                            "S": [
+                              "P1263L"
+                            ],
+                            "nuc": [
+                              "C14708T",
+                              "C25350T"
+                            ],
+                            "orf1ab": [
+                              "A4815V"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-05/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436509",
+                          "div": 0.00036779994576087243,
+                          "num_date": {
+                            "confidence": [
+                              2020.2609289617487,
+                              2020.2609289617487
+                            ],
+                            "value": 2020.2609289617487
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "orf1ab: D5225N"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C7420T",
+                              "C14898T",
+                              "G15937A",
+                              "C24023T",
+                              "G29734C"
+                            ],
+                            "orf1ab": [
+                              "D5225N"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-09/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436513",
+                          "div": 0.000468143881863792,
+                          "num_date": {
+                            "confidence": [
+                              2020.2581967213114,
+                              2020.2581967213114
+                            ],
+                            "value": 2020.2581967213114
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000024",
+                    "node_attrs": {
+                      "div": 0.0003009029421972928,
+                      "num_date": {
+                        "confidence": [
+                          2019.8977677932369,
+                          2020.2144354014802
+                        ],
+                        "value": 2020.1633111358435
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T10831A"
+                            ]
+                          }
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-037/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436541",
+                          "div": 0.0003009120335478045,
+                          "num_date": {
+                            "confidence": [
+                              2020.2909836065573,
+                              2020.2909836065573
+                            ],
+                            "value": 2020.2909836065573
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hCoV-19/USA/FL-BPHL-042/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_436546",
+                          "div": 0.00026746854704609937,
+                          "num_date": {
+                            "confidence": [
+                              2020.2937158469945,
+                              2020.2937158469945
+                            ],
+                            "value": 2020.2937158469945
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000021",
+                    "node_attrs": {
+                      "div": 0.00026746854704609937,
+                      "num_date": {
+                        "confidence": [
+                          2020.1919911524433,
+                          2020.284861440976
+                        ],
+                        "value": 2020.2499257179418
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "N: R203K, G204R"
+                      },
+                      "mutations": {
+                        "N": [
+                          "R203K",
+                          "G204R"
+                        ],
+                        "nuc": [
+                          "C313T",
+                          "G28881A",
+                          "G28882A",
+                          "G28883C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hCoV-19/USA/FL_6318/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_420785",
+                          "div": 0.00040121787869937893,
+                          "num_date": {
+                            "confidence": [
+                              2020.1680327868853,
+                              2020.1680327868853
+                            ],
+                            "value": 2020.1680327868853
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hCoV-19/USA/FL_5125/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_419559",
+                          "div": 0.0004012178786993796,
+                          "num_date": {
+                            "confidence": [
+                              2020.1598360655737,
+                              2020.1598360655737
+                            ],
+                            "value": 2020.1598360655737
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "hCoV-19/USA/FL_5091/2020",
+                        "node_attrs": {
+                          "accession": "EPI_ISL_419560",
+                          "div": 0.0004012178786993796,
+                          "num_date": {
+                            "confidence": [
+                              2020.1598360655737,
+                              2020.1598360655737
+                            ],
+                            "value": 2020.1598360655737
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "div": 0.00040121787869937893,
+                      "num_date": {
+                        "confidence": [
+                          2020.1501197741973,
+                          2020.1598360655737
+                        ],
+                        "value": 2020.1598360655737
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "ORF3a: Q57H"
+                      },
+                      "mutations": {
+                        "ORF3a": [
+                          "Q57H"
+                        ],
+                        "nuc": [
+                          "G25563T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C18877T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF8: V32L"
+                              },
+                              "mutations": {
+                                "ORF8": [
+                                  "V32L"
+                                ],
+                                "nuc": [
+                                  "G27987T"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-02/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436506",
+                              "div": 0.0003677697079865693,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2609289617487,
+                                  2020.2609289617487
+                                ],
+                                "value": 2020.2609289617487
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-016/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436520",
+                              "div": 0.00033433482680346623,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2718579234972,
+                                  2020.2718579234972
+                                ],
+                                "value": 2020.2718579234972
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000036",
+                        "node_attrs": {
+                          "div": 0.00033433482680346623,
+                          "num_date": {
+                            "confidence": [
+                              2020.1924410677673,
+                              2020.26057035366
+                            ],
+                            "value": 2020.2419593943544
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C8389T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "name": "hCoV-19/USA/FL_7169/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_424855",
+                              "div": 0.0003343348268034669,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1680327868853,
+                                  2020.1680327868853
+                                ],
+                                "value": 2020.1680327868853
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C5467T"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL_1177/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_424857",
+                              "div": 0.0003677697804547843,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1789617486338,
+                                  2020.1789617486338
+                                ],
+                                "value": 2020.1789617486338
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF8: G8R"
+                              },
+                              "mutations": {
+                                "ORF8": [
+                                  "G8R"
+                                ],
+                                "nuc": [
+                                  "G27915A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T25237A"
+                                    ]
+                                  }
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-01/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436505",
+                                  "div": 0.0004012070813690191,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2609289617487,
+                                      2020.2609289617487
+                                    ],
+                                    "value": 2020.2609289617487
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C601T",
+                                      "C8950T",
+                                      "G19746A",
+                                      "T22585C",
+                                      "T29867A"
+                                    ]
+                                  }
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-018/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436522",
+                                  "div": 0.000534965105521899,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2718579234972,
+                                      2020.2718579234972
+                                    ],
+                                    "value": 2020.2718579234972
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000028",
+                            "node_attrs": {
+                              "div": 0.00036776854134587273,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1638769928356,
+                                  2020.2292572559638
+                                ],
+                                "value": 2020.182382657046
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000026",
+                        "node_attrs": {
+                          "div": 0.00033433482680346623,
+                          "num_date": {
+                            "confidence": [
+                              2020.1471585139352,
+                              2020.1680327868853
+                            ],
+                            "value": 2020.1680327868853
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C2416T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "S: V367F; orf1ab: T4083M"
+                              },
+                              "mutations": {
+                                "S": [
+                                  "V367F"
+                                ],
+                                "nuc": [
+                                  "C12513T",
+                                  "G22661T"
+                                ],
+                                "orf1ab": [
+                                  "T4083M"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-08/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436512",
+                              "div": 0.0004012069085260455,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2554644808743,
+                                  2020.2554644808743
+                                ],
+                                "value": 2020.2554644808743
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: L3644F, V4980L"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C11195T",
+                                  "G15202T",
+                                  "C22444T",
+                                  "C26228T"
+                                ],
+                                "orf1ab": [
+                                  "L3644F",
+                                  "V4980L"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: D139N"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "G680A"
+                                    ],
+                                    "orf1ab": [
+                                      "D139N"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-047/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436551",
+                                      "div": 0.0005015184825209692,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2937158469945,
+                                          2020.2937158469945
+                                        ],
+                                        "value": 2020.2937158469945
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-048/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436552",
+                                      "div": 0.0005015184825209692,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2937158469945,
+                                          2020.2937158469945
+                                        ],
+                                        "value": 2020.2937158469945
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000034",
+                                "node_attrs": {
+                                  "div": 0.0005015184825209692,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.250096117387,
+                                      2020.2937158469945
+                                    ],
+                                    "value": 2020.2806815246208
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-017/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436521",
+                                      "div": 0.00046808306000850424,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.26912568306,
+                                          2020.26912568306
+                                        ],
+                                        "value": 2020.26912568306
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hCoV-19/USA/FL-BPHL-046/2020",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_436550",
+                                          "div": 0.00046808306000850424,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2937158469945,
+                                              2020.2937158469945
+                                            ],
+                                            "value": 2020.2937158469945
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hCoV-19/USA/FL-BPHL-020/2020",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_436524",
+                                          "div": 0.00046808306000850424,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2882513661202,
+                                              2020.2882513661202
+                                            ],
+                                            "value": 2020.2882513661202
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000032",
+                                    "node_attrs": {
+                                      "div": 0.00046808306000850424,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2405291011892,
+                                          2020.2882513661202
+                                        ],
+                                        "value": 2020.2795618178711
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000027",
+                                "node_attrs": {
+                                  "div": 0.00046808306000850424,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2428328293515,
+                                      2020.26912568306
+                                    ],
+                                    "value": 2020.26912568306
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000031",
+                            "node_attrs": {
+                              "div": 0.00046808306000850424,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2198705900994,
+                                  2020.2658118722873
+                                ],
+                                "value": 2020.2444815983351
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000030",
+                        "node_attrs": {
+                          "div": 0.00033433482680346623,
+                          "num_date": {
+                            "confidence": [
+                              2020.1399758716013,
+                              2020.208395941026
+                            ],
+                            "value": 2020.1787504276942
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "orf1ab: T265I"
+                          },
+                          "mutations": {
+                            "nuc": [
+                              "C1059T"
+                            ],
+                            "orf1ab": [
+                              "T265I"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "M: A2S; orf1ab: T2283I"
+                              },
+                              "mutations": {
+                                "M": [
+                                  "A2S"
+                                ],
+                                "nuc": [
+                                  "T826C",
+                                  "C7113T",
+                                  "C11224T",
+                                  "G26526T",
+                                  "C29546T"
+                                ],
+                                "orf1ab": [
+                                  "T2283I"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-051/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436555",
+                              "div": 0.0005015287321175339,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2937158469945,
+                                  2020.2937158469945
+                                ],
+                                "value": 2020.2937158469945
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: M4993I, Q5214H"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "G15243T",
+                                  "G15906T",
+                                  "G29688T"
+                                ],
+                                "orf1ab": [
+                                  "M4993I",
+                                  "Q5214H"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-011/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436515",
+                              "div": 0.00043468435894586203,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2581967213114,
+                                  2020.2581967213114
+                                ],
+                                "value": 2020.2581967213114
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: P6570L"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C16338T",
+                                  "C19973T",
+                                  "C26151T"
+                                ],
+                                "orf1ab": [
+                                  "P6570L"
+                                ]
+                              }
+                            },
+                            "name": "hCoV-19/USA/FL-BPHL-049/2020",
+                            "node_attrs": {
+                              "accession": "EPI_ISL_436553",
+                              "div": 0.0004346521844969331,
+                              "num_date": {
+                                "confidence": [
+                                  2020.2937158469945,
+                                  2020.2937158469945
+                                ],
+                                "value": 2020.2937158469945
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "orf1ab: S3884L"
+                              },
+                              "mutations": {
+                                "nuc": [
+                                  "C11916T"
+                                ],
+                                "orf1ab": [
+                                  "S3884L"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-022/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436526",
+                                  "div": 0.0003677685375341792,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2882513661202,
+                                      2020.2882513661202
+                                    ],
+                                    "value": 2020.2882513661202
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: A6245V"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C18998T",
+                                      "G29540A"
+                                    ],
+                                    "orf1ab": [
+                                      "A6245V"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "orf1ab: A1283V, D5973N"
+                                      },
+                                      "mutations": {
+                                        "nuc": [
+                                          "C4113T",
+                                          "G18181A"
+                                        ],
+                                        "orf1ab": [
+                                          "A1283V",
+                                          "D5973N"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-023/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436527",
+                                      "div": 0.0005015188274836089,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2882513661202,
+                                          2020.2882513661202
+                                        ],
+                                        "value": 2020.2882513661202
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T13914C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-045/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436549",
+                                      "div": 0.00046807541604931206,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2937158469945,
+                                          2020.2937158469945
+                                        ],
+                                        "value": 2020.2937158469945
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000039",
+                                "node_attrs": {
+                                  "div": 0.0004346393189163324,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2242744427929,
+                                      2020.2882513661202
+                                    ],
+                                    "value": 2020.2482075670134
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000038",
+                            "node_attrs": {
+                              "div": 0.00036776853753417855,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1595202741069,
+                                  2020.2748266912654
+                                ],
+                                "value": 2020.2183896698093
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "ORF8: S24L"
+                              },
+                              "mutations": {
+                                "ORF8": [
+                                  "S24L"
+                                ],
+                                "nuc": [
+                                  "C27964T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: L2572P, K4232R"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "T7980C",
+                                      "A12960G",
+                                      "C26873T"
+                                    ],
+                                    "orf1ab": [
+                                      "L2572P",
+                                      "K4232R"
+                                    ]
+                                  }
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-010/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436514",
+                                  "div": 0.000468209828243377,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2636612021859,
+                                      2020.2636612021859
+                                    ],
+                                    "value": 2020.2636612021859
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: G5530C"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C2536T",
+                                      "G16852T",
+                                      "T21111C"
+                                    ],
+                                    "orf1ab": [
+                                      "G5530C"
+                                    ]
+                                  }
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-050/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436554",
+                                  "div": 0.0004680856904711958,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2937158469945,
+                                      2020.2937158469945
+                                    ],
+                                    "value": 2020.2937158469945
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1124C",
+                                      "A26148G"
+                                    ]
+                                  }
+                                },
+                                "name": "hCoV-19/USA/FL-BPHL-014/2020",
+                                "node_attrs": {
+                                  "accession": "EPI_ISL_436518",
+                                  "div": 0.00043467312620212737,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.26912568306,
+                                      2020.26912568306
+                                    ],
+                                    "value": 2020.26912568306
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: Q44K, G2342R"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C395A",
+                                      "G7289A",
+                                      "C9733T",
+                                      "C21727T"
+                                    ],
+                                    "orf1ab": [
+                                      "Q44K",
+                                      "G2342R"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-038/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436542",
+                                      "div": 0.0005015243513614352,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2937158469945,
+                                          2020.2937158469945
+                                        ],
+                                        "value": 2020.2937158469945
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-053/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436557",
+                                      "div": 0.0005015243513614352,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.301912568306,
+                                          2020.301912568306
+                                        ],
+                                        "value": 2020.301912568306
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000062",
+                                "node_attrs": {
+                                  "div": 0.0005015243513614352,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2527602929074,
+                                      2020.2937158469945
+                                    ],
+                                    "value": 2020.2801886976836
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "S: V308L; orf1ab: T3308I, T4090I"
+                                  },
+                                  "mutations": {
+                                    "S": [
+                                      "V308L"
+                                    ],
+                                    "nuc": [
+                                      "C10188T",
+                                      "C12534T",
+                                      "G22484T",
+                                      "T24982C",
+                                      "G28321T"
+                                    ],
+                                    "orf1ab": [
+                                      "T3308I",
+                                      "T4090I"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-013/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436517",
+                                      "div": 0.0005349591162487119,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.26912568306,
+                                          2020.26912568306
+                                        ],
+                                        "value": 2020.26912568306
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-019/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436523",
+                                      "div": 0.0005349591162487119,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2882513661202,
+                                          2020.2882513661202
+                                        ],
+                                        "value": 2020.2882513661202
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000065",
+                                "node_attrs": {
+                                  "div": 0.0005349591162487119,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.2463524148034,
+                                      2020.26912568306
+                                    ],
+                                    "value": 2020.26912568306
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: L3352F"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C10319T"
+                                    ],
+                                    "orf1ab": [
+                                      "L3352F"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "orf1ab: N1374S"
+                                      },
+                                      "mutations": {
+                                        "nuc": [
+                                          "A4386G"
+                                        ],
+                                        "orf1ab": [
+                                          "N1374S"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-015/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436519",
+                                      "div": 0.0004346526361503352,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2718579234972,
+                                          2020.2718579234972
+                                        ],
+                                        "value": 2020.2718579234972
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "S: P561S"
+                                      },
+                                      "mutations": {
+                                        "S": [
+                                          "P561S"
+                                        ],
+                                        "nuc": [
+                                          "T16047C",
+                                          "C23243T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-030/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436534",
+                                      "div": 0.0004680881551862599,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2909836065573,
+                                          2020.2909836065573
+                                        ],
+                                        "value": 2020.2909836065573
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000067",
+                                "node_attrs": {
+                                  "div": 0.0004012028826499634,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1953071461653,
+                                      2020.2718579234972
+                                    ],
+                                    "value": 2020.2430912589919
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000061",
+                            "node_attrs": {
+                              "div": 0.00036776853753417855,
+                              "num_date": {
+                                "confidence": [
+                                  2020.156552125744,
+                                  2020.253407629227
+                                ],
+                                "value": 2020.188104007951
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "orf1ab: T551I"
+                                  },
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1917T"
+                                    ],
+                                    "orf1ab": [
+                                      "T551I"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G174A",
+                                          "T8278C"
+                                        ]
+                                      }
+                                    },
+                                    "name": "hCoV-19/USA/FL-BPHL-03/2020",
+                                    "node_attrs": {
+                                      "accession": "EPI_ISL_436507",
+                                      "div": 0.0004346801051288124,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2609289617487,
+                                          2020.2609289617487
+                                        ],
+                                        "value": 2020.2609289617487
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C26549T"
+                                            ]
+                                          }
+                                        },
+                                        "name": "hCoV-19/USA/FL-BPHL-039/2020",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_436543",
+                                          "div": 0.00040120602268662486,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2937158469945,
+                                              2020.2937158469945
+                                            ],
+                                            "value": 2020.2937158469945
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "name": "hCoV-19/USA/FL-BPHL-026/2020",
+                                            "node_attrs": {
+                                              "accession": "EPI_ISL_436530",
+                                              "div": 0.00036776853753417985,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2020.2909836065573,
+                                                  2020.2909836065573
+                                                ],
+                                                "value": 2020.2909836065573
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "hCoV-19/USA/FL-BPHL-025/2020",
+                                                "node_attrs": {
+                                                  "accession": "EPI_ISL_436529",
+                                                  "div": 0.00036776853753417985,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2020.2909836065573,
+                                                      2020.2909836065573
+                                                    ],
+                                                    "value": 2020.2909836065573
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "hCoV-19/USA/FL-BPHL-024/2020",
+                                                "node_attrs": {
+                                                  "accession": "EPI_ISL_436528",
+                                                  "div": 0.00036776853753417985,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2020.2909836065573,
+                                                      2020.2909836065573
+                                                    ],
+                                                    "value": 2020.2909836065573
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000046",
+                                            "node_attrs": {
+                                              "div": 0.0003677685375341792,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2020.2541831641065,
+                                                  2020.2909836065573
+                                                ],
+                                                "value": 2020.2779492841837
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000045",
+                                        "node_attrs": {
+                                          "div": 0.0003677685375341792,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2398497676513,
+                                              2020.2855710489616
+                                            ],
+                                            "value": 2020.2628215165225
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000044",
+                                    "node_attrs": {
+                                      "div": 0.0003677685375341792,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.2199778223444,
+                                          2020.2734069393848
+                                        ],
+                                        "value": 2020.2470573314574
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000049",
+                                "node_attrs": {
+                                  "div": 0.0003677685375341792,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1907131439036,
+                                      2020.2609289617487
+                                    ],
+                                    "value": 2020.2233021817365
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "ORF3a: D27H"
+                                      },
+                                      "mutations": {
+                                        "ORF3a": [
+                                          "D27H"
+                                        ],
+                                        "nuc": [
+                                          "T967C",
+                                          "G25471C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hCoV-19/USA/FL-BPHL-029/2020",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_436533",
+                                          "div": 0.00040120467287156874,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2909836065573,
+                                              2020.2909836065573
+                                            ],
+                                            "value": 2020.2909836065573
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "hCoV-19/USA/FL-BPHL-041/2020",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_436545",
+                                          "div": 0.00040120467287156874,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2937158469945,
+                                              2020.2937158469945
+                                            ],
+                                            "value": 2020.2937158469945
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000043",
+                                    "node_attrs": {
+                                      "div": 0.00040120467287156874,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.242165476879,
+                                          2020.2909836065573
+                                        ],
+                                        "value": 2020.2779492841837
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "labels": {
+                                            "aa": "orf1ab: R99H"
+                                          },
+                                          "mutations": {
+                                            "nuc": [
+                                              "G561A",
+                                              "T25620C"
+                                            ],
+                                            "orf1ab": [
+                                              "R99H"
+                                            ]
+                                          }
+                                        },
+                                        "name": "hCoV-19/USA/FL-BPHL-043/2020",
+                                        "node_attrs": {
+                                          "accession": "EPI_ISL_436547",
+                                          "div": 0.00040122819401163445,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.2937158469945,
+                                              2020.2937158469945
+                                            ],
+                                            "value": 2020.2937158469945
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "S: A67V"
+                                              },
+                                              "mutations": {
+                                                "S": [
+                                                  "A67V"
+                                                ],
+                                                "nuc": [
+                                                  "C21762T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "N: T329M"
+                                                  },
+                                                  "mutations": {
+                                                    "N": [
+                                                      "T329M"
+                                                    ],
+                                                    "nuc": [
+                                                      "C29259T"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "hCoV-19/USA/FL-BPHL-032/2020",
+                                                "node_attrs": {
+                                                  "accession": "EPI_ISL_436536",
+                                                  "div": 0.00040121102545174537,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2020.2909836065573,
+                                                      2020.2909836065573
+                                                    ],
+                                                    "value": 2020.2909836065573
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "hCoV-19/USA/FL-BPHL-021/2020",
+                                                    "node_attrs": {
+                                                      "accession": "EPI_ISL_436525",
+                                                      "div": 0.00036776853753418115,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2020.2882513661202,
+                                                          2020.2882513661202
+                                                        ],
+                                                        "value": 2020.2882513661202
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "hCoV-19/USA/FL-BPHL-036/2020",
+                                                        "node_attrs": {
+                                                          "accession": "EPI_ISL_436540",
+                                                          "div": 0.0003677685375341818,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2020.2909836065573,
+                                                              2020.2909836065573
+                                                            ],
+                                                            "value": 2020.2909836065573
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "hCoV-19/USA/FL-BPHL-054/2020",
+                                                        "node_attrs": {
+                                                          "accession": "EPI_ISL_436558",
+                                                          "div": 0.00036776853753418115,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2020.301912568306,
+                                                              2020.301912568306
+                                                            ],
+                                                            "value": 2020.301912568306
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000054",
+                                                    "node_attrs": {
+                                                      "div": 0.00036776853753418115,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2020.2601191842105,
+                                                          2020.2909836065573
+                                                        ],
+                                                        "value": 2020.2798446487232
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000053",
+                                                "node_attrs": {
+                                                  "div": 0.00036776853753418115,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2020.2424649478196,
+                                                      2020.2882513661202
+                                                    ],
+                                                    "value": 2020.2756136175562
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000055",
+                                            "node_attrs": {
+                                              "div": 0.00036776853753418115,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2020.2181913866136,
+                                                  2020.2859853636687
+                                                ],
+                                                "value": 2020.2526191840586
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "N: Y298H"
+                                                  },
+                                                  "mutations": {
+                                                    "N": [
+                                                      "Y298H"
+                                                    ],
+                                                    "nuc": [
+                                                      "T29165C"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "hCoV-19/USA/FL-BPHL-033/2020",
+                                                    "node_attrs": {
+                                                      "accession": "EPI_ISL_436537",
+                                                      "div": 0.0003677679156002066,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2020.2909836065573,
+                                                          2020.2909836065573
+                                                        ],
+                                                        "value": 2020.2909836065573
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "hCoV-19/USA/FL-BPHL-034/2020",
+                                                    "node_attrs": {
+                                                      "accession": "EPI_ISL_436538",
+                                                      "div": 0.0003677679156002066,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2020.2909836065573,
+                                                          2020.2909836065573
+                                                        ],
+                                                        "value": 2020.2909836065573
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000042",
+                                                "node_attrs": {
+                                                  "div": 0.00036776791560020597,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2020.250348953031,
+                                                      2020.2909836065573
+                                                    ],
+                                                    "value": 2020.2779492841837
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "hCoV-19/USA/FL-BPHL-035/2020",
+                                                        "node_attrs": {
+                                                          "accession": "EPI_ISL_436539",
+                                                          "div": 0.0003343348268034708,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2020.2909836065573,
+                                                              2020.2909836065573
+                                                            ],
+                                                            "value": 2020.2909836065573
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "hCoV-19/USA/FL-BPHL-028/2020",
+                                                        "node_attrs": {
+                                                          "accession": "EPI_ISL_436532",
+                                                          "div": 0.0003343348268034708,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2020.2909836065573,
+                                                              2020.2909836065573
+                                                            ],
+                                                            "value": 2020.2909836065573
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000059",
+                                                    "node_attrs": {
+                                                      "div": 0.0003343348268034708,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2020.2513253065658,
+                                                          2020.2909836065573
+                                                        ],
+                                                        "value": 2020.2779492841837
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "hCoV-19/USA/FL-BPHL-040/2020",
+                                                        "node_attrs": {
+                                                          "accession": "EPI_ISL_436544",
+                                                          "div": 0.00033433482680347143,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2020.2937158469945,
+                                                              2020.2937158469945
+                                                            ],
+                                                            "value": 2020.2937158469945
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "N: P13R"
+                                                          },
+                                                          "mutations": {
+                                                            "N": [
+                                                              "P13R"
+                                                            ],
+                                                            "nuc": [
+                                                              "C28311G"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "hCoV-19/USA/FL-BPHL-052/2020",
+                                                        "node_attrs": {
+                                                          "accession": "EPI_ISL_436556",
+                                                          "div": 0.0003678014036154743,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2020.301912568306,
+                                                              2020.301912568306
+                                                            ],
+                                                            "value": 2020.301912568306
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000060",
+                                                    "node_attrs": {
+                                                      "div": 0.0003343348268034708,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2020.2370918876718,
+                                                          2020.2918632754456
+                                                        ],
+                                                        "value": 2020.279821900759
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000058",
+                                                "node_attrs": {
+                                                  "div": 0.00033433482680347013,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2020.2378922788216,
+                                                      2020.2855710489616
+                                                    ],
+                                                    "value": 2020.2630146833599
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000056",
+                                            "node_attrs": {
+                                              "div": 0.0003343348268034695,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2020.2149258531065,
+                                                  2020.2796320761927
+                                                ],
+                                                "value": 2020.2425796227199
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000051",
+                                        "node_attrs": {
+                                          "div": 0.00033433482680346883,
+                                          "num_date": {
+                                            "confidence": [
+                                              2020.156448346504,
+                                              2020.2723468084123
+                                            ],
+                                            "value": 2020.2218448439453
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000050",
+                                    "node_attrs": {
+                                      "div": 0.0003343348268034682,
+                                      "num_date": {
+                                        "confidence": [
+                                          2020.1519596788212,
+                                          2020.2658145346445
+                                        ],
+                                        "value": 2020.210950625154
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000047",
+                                "node_attrs": {
+                                  "div": 0.00033433482680346753,
+                                  "num_date": {
+                                    "confidence": [
+                                      2020.1503450766243,
+                                      2020.261909341987
+                                    ],
+                                    "value": 2020.2012114170268
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000040",
+                            "node_attrs": {
+                              "div": 0.0003343348268034669,
+                              "num_date": {
+                                "confidence": [
+                                  2020.1575051377044,
+                                  2020.2497173856575
+                                ],
+                                "value": 2020.190131336793
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000037",
+                        "node_attrs": {
+                          "div": 0.00033433482680346623,
+                          "num_date": {
+                            "confidence": [
+                              2020.1506716006904,
+                              2020.2418602407922
+                            ],
+                            "value": 2020.180229386816
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000025",
+                    "node_attrs": {
+                      "div": 0.000300901751299618,
+                      "num_date": {
+                        "confidence": [
+                          2020.1079781985961,
+                          2020.1585551621165
+                        ],
+                        "value": 2020.1419185560276
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000018",
+                "node_attrs": {
+                  "div": 0.00026746854704609937,
+                  "num_date": {
+                    "confidence": [
+                      2019.8274428027034,
+                      2020.14644114331
+                    ],
+                    "value": 2020.1219194694456
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 0.00013372954622487327,
+              "num_date": {
+                "confidence": [
+                  2016.9305457446567,
+                  2020.1385486456966
+                ],
+                "value": 2020.0244746561132
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000069",
+        "node_attrs": {
+          "div": 6.686477311243663e-05,
+          "num_date": {
+            "confidence": [
+              2015.4969180670469,
+              2020.1256589345394
+            ],
+            "value": 2019.9454655945153
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2013.264487554309,
+          2020.1119630783166
+        ],
+        "value": 2019.8649251460772
+      }
+    }
+  },
+  "version": "v2"
+}
